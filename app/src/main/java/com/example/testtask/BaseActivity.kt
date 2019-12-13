@@ -25,9 +25,13 @@ open class BaseActivity : AppCompatActivity() {
             newTaskBtn.setOnClickListener {
                 NewTaskActivity.show(this)
             }
+            newTaskBtnFlag.setOnClickListener {
+                NewTaskActivity.showWithFlag(this)
+            }
             newTaskBtnByService.setOnClickListener {
                 startService(Intent(this, TestService::class.java))
             }
+
         } catch (e: Throwable) {
             e.printStackTrace()
         }

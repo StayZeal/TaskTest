@@ -16,13 +16,20 @@
         android:id="@+id/newTaskBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NewTaskActivity" />
+        android:text="NewTask_Activity" />
 
+
+    <Button
+        android:id="@+id/newTaskBtnFlag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NewTask_Activity_Flag" />
 
     <Button
         android:id="@+id/newTaskBtnByService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NewTaskActivityByService" />
+        android:text="NewTask_Activity_ByService" />
+
 
 </LinearLayout>
